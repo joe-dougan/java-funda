@@ -1,4 +1,4 @@
-class Annoucement{
+class Announcement{
 
     public static void alert(String message) {
         System.out.println(message);
@@ -25,10 +25,11 @@ class Annoucement{
     }
 
     public static void main(String[] args) {
-        Annoucement.alert("This is a message from the alert function");
-        Annoucement.apology();
-        Annoucement.politeNotice();
-        Annoucement.helpNeeded();
-        Annoucement.celebration();
+        Announcement.alert("This is a message from the alert function");
+        Announcement.apology();
+        Announcement.politeNotice();
+        Announcement.helpNeeded();
+        Announcement.celebration();
+        Announcement myAnnouncement
     }
 }
