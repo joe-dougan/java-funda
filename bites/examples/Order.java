@@ -21,7 +21,7 @@ class Order{
 
     public static void main(String[] args) {
         Order order = new Order();
-        order.addAmount(10);
+        order.addAmount(9);
         order.addDiscount(2);
         int total = order.total();
         System.out.println(total);
